@@ -104,8 +104,22 @@ def data_cleaning():
     profits['below_avg']=profits['profit(K)'].apply(lambda x: x if x<profits['profit(K)'].mean() else 0)
     
 
-    tab1,tab2,tab3,tab4=st.tabs(["Finding the spending cycle","Marketing Effectiveness","Lets talk profits","Our Inference"])
+    tab1,tab2,tab3,tab4,tab5=st.tabs(["About Australia","Finding the spending cycle","Marketing Effectiveness","Lets talk profits","Our Inference"])
     with tab1:
+        st.write("### About Australia")
+        st.write("""These were the top occupations in 2021, along with the number of people in each job:
+                    Sales assistants (general) - 514,084
+                    Registered nurses - 262,742
+                    General clerks - 244,849
+                    Aged and disabled carers - 227,535
+                    Retail managers - 194,743
+                    Primary school teachers - 164,891
+                    Child carers - 162,490
+                    Truck drivers - 161,562
+                    Receptionists - 160,598
+                    Accountants - 158,366
+                    """)
+    with tab2:
         st.write('### Finding the spending cycle')
 
         st.write('-  Since the transactions are only for the year 2017 we will summarize the montly purchases for each month.')
