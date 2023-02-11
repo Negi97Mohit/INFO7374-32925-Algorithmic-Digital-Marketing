@@ -142,7 +142,7 @@ def data_cleaning():
                          )
         st.plotly_chart(fig)
         st.markdown("<h3 style='text-align: center; color: black;'>Below Averge Monthly Spenders</h3>", unsafe_allow_html=True)
-    with tab2:
+    with tab3:
         st.write("### Sector of new customer acquired")
         fig1 = go.Figure()
         fig1.add_trace(go.Bar(y=merged_customer_demo.job_industry_category, x=merged_customer_demo['f_effective%'],orientation='h',marker_color='rgb(115,190,115)',name='New Female Customers %'))
@@ -170,7 +170,7 @@ def data_cleaning():
         st.plotly_chart(fig4)
         
                 
-    with tab3:
+    with tab4:
         st.write('#### What are the numbers from on online and offline sales')
         st.write(transaction.groupby(['online_order'])['profit(K)'].sum())
         st.write('#### What are the numbers for different class of product')
@@ -179,7 +179,7 @@ def data_cleaning():
         st.write(transaction.groupby(['online_order','product_class','product_line'])['profit(K)'].sum())
         
         
-    with tab4:
+    with tab5:
         st.write('#### Question to ask ourself')
         st.write('##### How successful was the previous marketing campaign, what type of clients did we attract most? ')
         st.write("""- Given we had more female clients in past, the marketing for that sector was not effective when compared with male customers""")
