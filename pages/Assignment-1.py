@@ -19,7 +19,7 @@ import plotly.graph_objects as go
 import streamlit as st
 import streamlit.components.v1 as components
 from streamlit_pandas_profiling import st_profile_report
-import ydata_quality.data_expectations as yqde
+from  ydata_quality import data_expectations 
 
 st.markdown("# Assignment-1")
 st.sidebar.header("Assignment-1")
@@ -328,7 +328,7 @@ def profiling():
             st_profile_report(oldCust_repo_demo)
             
     with tab2:
-        drd = yqde.DataRelationsDetector()
+        drd = data_expectations.DataRelationsDetector()
         results = drd.evaluate(profits, dtypes=None, label=None, corr_th=0.8, vif_th=5)
         st.write(results)
         
