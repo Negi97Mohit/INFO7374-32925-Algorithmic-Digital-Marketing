@@ -19,7 +19,7 @@ import plotly.graph_objects as go
 import streamlit as st
 import streamlit.components.v1 as components
 from streamlit_pandas_profiling import st_profile_report
-from ydata_quality.data_expectations import DataExpectationsReporter
+# from ydata_quality.data_expectations import DataExpectationsReporter
 
 st.markdown("# Assignment-1")
 st.sidebar.header("Assignment-1")
