@@ -328,9 +328,10 @@ def profiling():
             st_profile_report(oldCust_repo_demo)
             
     with tab2:
-        drd = DataRelationsDetector()
-        results = drd.evaluate(profits, dtypes=None, label=None, corr_th=0.8, vif_th=5)
-        st.write(results)
+        pass
+        # drd = DataRelationsDetector()
+        # results = drd.evaluate(profits, dtypes=None, label=None, corr_th=0.8, vif_th=5)
+        # st.write(results)
         
     with tab3:
         pass
