@@ -46,6 +46,7 @@ def get_date_int(df, column) :
 
 
 def cohortAnalysis(df):
+    df.rename(columns={'CUSTOMER_ID':'customer_id','TRANSACTION_DATE':'transaction_date','ONLINE_ORDER':'online_order','ORDER_STATUS':'order_status'},inplace=True)  
     df_final = df[['customer_id','transaction_date','online_order','order_status']]
     df_final = df_final[df_final['order_status'] == 'Approved']
     df_final = df_final[~df_final.duplicated()]
