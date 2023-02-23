@@ -294,7 +294,7 @@ def profiling():
     profits['above_avg']=profits['profit(K)'].apply(lambda x: x if x>profits['profit(K)'].mean() else 0)
     profits['below_avg']=profits['profit(K)'].apply(lambda x: x if x<profits['profit(K)'].mean() else 0)
     
-    tab1,tab2,tab3=st.tabs(['Profile Reports','Data Quality Analysis','Our Inference'])
+    tab1=st.tabs(['Profile Reports'])
 
     with tab1:
         profit_expander = st.expander(label='Profit Report')
@@ -327,14 +327,6 @@ def profiling():
             oldCust_repo_demo=ProfileReport((OldCustomerDemographic))
             st_profile_report(oldCust_repo_demo)
             
-    with tab2:
-        pass
-        # drd = DataRelationsDetector()
-        # results = drd.evaluate(profits, dtypes=None, label=None, corr_th=0.8, vif_th=5)
-        # st.write(results)
-        
-    with tab3:
-        pass
 
 if __name__ == "__main__":
     get_data()
