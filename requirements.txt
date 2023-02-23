@@ -4,4 +4,3 @@ plotly
 dash
 streamlit_pandas_profiling
 openpyxl
-ydata-quality
