@@ -1,8 +1,9 @@
 pandas 
 pandas_profiling 
 plotly
+streamlib
 dash
-snowflake
+snowflake==0.0.3
 streamlit_pandas_profiling
 openpyxl
 streamlit
@@ -14,3 +15,4 @@ requests==2.28.2
 urllib3==1.26.14
 wincertstore==0.2
 yarg==0.1.9
+snowflake-snowpark-python==0.7.0
