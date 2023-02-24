@@ -4,7 +4,6 @@ plotly
 dash
 streamlit_pandas_profiling
 openpyxl
-https://repo.anaconda.com/pkgs/snowflake
 streamlit
 charset-normalizer==3.0.1
 docopt==0.6.2
