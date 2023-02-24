@@ -2,9 +2,9 @@ pandas
 pandas_profiling 
 plotly
 dash
-snowflake-snowpark-python==0.7.0
 streamlit_pandas_profiling
 openpyxl
+snowflake-snowpark-python
 streamlit
 charset-normalizer==3.0.1
 docopt==0.6.2
