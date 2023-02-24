@@ -4,7 +4,7 @@ plotly
 dash
 streamlit_pandas_profiling
 openpyxl
-conda install -c https://repo.anaconda.com/pkgs/snowflake snowflake-snowpark-python cachetools
+https://repo.anaconda.com/pkgs/snowflake
 streamlit
 charset-normalizer==3.0.1
 docopt==0.6.2
