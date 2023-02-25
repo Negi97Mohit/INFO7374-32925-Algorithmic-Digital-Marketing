@@ -1,6 +1,5 @@
 pandas_profiling 
 plotly
 dash
-snowflake
 streamlit_pandas_profiling
 openpyxl
