@@ -1,8 +1,8 @@
 altair==4.1.0
 matplotlib==3.5.2
 pandas==1.4.4
-pandas_profiling==3.6.6
-plotly==5.9.0
+pandas_profiling
+plotly
 seaborn==0.11.2
 snowflake==0.0.3
 snowflake_snowpark_python==1.1.0
