@@ -1,4 +1,4 @@
 name: snowpark
 dependencies:
-  - pandas-profiling
-  - snowflake-snowpark-python
+- pandas-profiling
+- snowflake-snowpark-python
