@@ -6,6 +6,6 @@ dependencies:
   - pip
   - pip:
       - 'snowflake_snowpark_python-0.4.0-py3-none-any.whl'
-      - pandas-profiling
+      - pandas_profiling
       - snowflake-snowpark-python
 
