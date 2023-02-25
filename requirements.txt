@@ -1,4 +1,4 @@
-snowflake-snowpark-python[pandas]
+snowflake_snowpark_python[pandas]
 boto3
 pandas_profiling 
 plotly
