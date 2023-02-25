@@ -1,7 +1,6 @@
 pandas 
 pandas_profiling 
 plotly
-streamlib
 dash
 snowflake
 streamlit_pandas_profiling
