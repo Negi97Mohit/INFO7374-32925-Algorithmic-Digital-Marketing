@@ -1,8 +1,7 @@
 name: snowpark
 channels:
-  - conda-forge
+  - defaults
+  - pytorch
 dependencies:
   - pandas-profiling
-  - pip 
-  - pip:
-      - 'snowflake_snowpark_python-0.4.0-py3-none-any.whl'
+  - 'snowflake_snowpark_python-0.4.0-py3-none-any.whl'
