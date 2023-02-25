@@ -1,5 +1,4 @@
-snowflake_snowpark_python[pandas]
-boto3
+snowflake-snowpark-python
 pandas_profiling 
 plotly
 dash
