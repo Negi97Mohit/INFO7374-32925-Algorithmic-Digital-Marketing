@@ -1,3 +1,4 @@
 name: snowpark
 dependencies:
-  - snowflake-snowpark-python
+  - pandas-profiling
+  - plotly
