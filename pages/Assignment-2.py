@@ -19,7 +19,7 @@ import seaborn as sns
 # Function to create Snowflake Session to connect to Snowflake
 def create_session():
     if "snowpark_session" not in st.session_state:
-        session = Session.builder.configs(json.load(open("pages\connection.json"))).create()
+        session = Session.builder.configs(json.load(open("Assignment-2\connection.json"))).create()
         st.session_state['snowpark_session'] = session
     else:
         session = st.session_state['snowpark_session']
