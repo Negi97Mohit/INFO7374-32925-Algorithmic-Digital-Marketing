@@ -6,4 +6,3 @@ snowflake
 streamlit_pandas_profiling
 openpyxl
 streamlit
-snowflake-snowpark-python
