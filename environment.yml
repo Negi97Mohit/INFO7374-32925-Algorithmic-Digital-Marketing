@@ -2,3 +2,4 @@ name: snowpark
 dependencies:
   - pandas-profiling
   - plotly
+  - openpyxl
